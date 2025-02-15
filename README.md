@@ -1,16 +1,16 @@
-# Reown AppKit Example using ethers (next.js with App Router)
+### 설치
 
-This is a Next.js project.
 
-## Usage
+```bash
+npm i @reown/walletkit @walletconnect/utils @walletconnect/core
 
-1. Go to [Reown Cloud](https://cloud.reown.com) and create a new project.
-2. Copy your `Project ID`
-3. Rename `.env.example` to `.env` and paste your `Project ID` as the value for `NEXT_PUBLIC_PROJECT_ID`
-4. Run `pnpm install` to install dependencies
-5. Run `pnpm run dev` to start the development server
+npx @reown/appkit-cli
+```
 
-## Resources
+### 프로젝트 생성
 
-- [Reown — Docs](https://docs.reown.com)
-- [Next.js — Docs](https://nextjs.org/docs)
+https://cloud.reown.com/app/1bbda5a4-a422-476c-ac00-86c3343cf2cc/project/2ec84aa9-5434-47b4-8395-151e601d0aa0
+
+### 결론
+
+사실 상 appkit만 설치하면 딱히 뭔가 만들 게 없다.
