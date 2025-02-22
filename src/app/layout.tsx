@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 
 import './globals.css';
-import ContextProvider from '@/context'
 
 export const metadata: Metadata = {
   title: "AppKit in Next.js + ethers",
@@ -17,7 +16,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body>
-        <ContextProvider>{children}</ContextProvider>
+        {children}
       </body>
     </html>
   );
